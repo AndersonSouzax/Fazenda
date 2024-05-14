@@ -1,0 +1,10 @@
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\x64\Debug\MyFazendaFrame.exe.config
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\x64\Debug\MyFazendaFrame.exe
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\x64\Debug\MyFazendaFrame.pdb
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\x64\Debug\MyFazendaFrame.csproj.AssemblyReference.cache
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\x64\Debug\MyFazendaFrame.csproj.CoreCompileInputs.cache
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\x64\Debug\MyFazendaFrame.exe
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\x64\Debug\MyFazendaFrame.pdb
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\x64\Debug\Dapper.dll
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\x64\Debug\Dapper.xml
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\x64\Debug\MyFazend.17C73C31.Up2Date

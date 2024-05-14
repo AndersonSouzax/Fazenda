@@ -1,0 +1,7 @@
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\Debug\MyFazendaFrame.exe.config
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\Debug\MyFazendaFrame.exe
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\bin\Debug\MyFazendaFrame.pdb
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\Debug\MyFazendaFrame.csproj.AssemblyReference.cache
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\Debug\MyFazendaFrame.csproj.CoreCompileInputs.cache
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\Debug\MyFazendaFrame.exe
+C:\Users\Ander\source\repos\MyFazendaFrame\MyFazendaFrame\obj\Debug\MyFazendaFrame.pdb
