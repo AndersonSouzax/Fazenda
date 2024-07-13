@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace MyFazendaFrame.Data
 {
@@ -15,7 +16,42 @@ namespace MyFazendaFrame.Data
 
         public DapperRepository()
         {
-           _connection = new System.Data.SqlClient.SqlConnection(@"Server=LAPTOP-4LGACR4L\SQLEXPRESS06;Database=Fazenda;Trusted_Connection=True;");
+           _connection = new SqlConnection(@"Server=LAPTOP-4LGACR4L\SQLEXPRESS06;Database=Fazenda;Trusted_Connection=True;");
+        }
+
+        public Semente GetSementeCompleteByFrutaId(int id)
+        {
+            _connection.Open();
+
+            string query = @"
+                SELECT
+                    *
+                FROM SEMENTE WHERE FrutaId = @id
+            ";
+
+            Semente s = _connection.QueryFirstOrDefault<Semente>(query, new { id });
+
+            _connection.Close();
+
+            return s;
+        }
+
+        public Semente GetSementeByFrutaId(int id)
+        {
+            _connection.Open();
+
+            string query = @"
+                SELECT
+                    Preco, 
+                    QuantidadePorEmbalagem
+                FROM SEMENTE WHERE FrutaId = @id
+            ";
+
+            Semente s = _connection.QueryFirstOrDefault<Semente>(query, new { id });
+
+            _connection.Close();
+
+            return s;
         }
 
         public Semente GetSementeById(int id)

@@ -1,4 +1,5 @@
 ﻿using MyFazendaFrame.Data;
+using MyFazendaFrame.Data.EFContext;
 using MyFazendaFrame.Models;
 using System;
 using System.Collections.Generic;
@@ -12,20 +13,17 @@ namespace MyFazendaFrame
     {
         static void Main(string[] args)
         {
+            //EntityFrameworkRepository EF_repository = new EntityFrameworkRepository();
 
+            //Semente s = EF_repository.GetSementeByFrutaId(1);
 
-            string id = Console.ReadLine();
+            DapperRepository dapper_repo = new DapperRepository();
 
-            DapperRepository rep = new DapperRepository();
+            Semente semente1 = dapper_repo.GetSementeCompleteByFrutaId(1);
 
-            Semente s = rep.GetSementeById(int.Parse(id));
+            Semente semente2 = dapper_repo.GetSementeByFrutaId(1);
 
-            (decimal p, int q) = rep.GetSementeFrutaPrecoEmbalagemById(1);
-
-            IEnumerable<Semente> seeds = rep.GetSementes();
-
-            Console.WriteLine(p);
-            Console.WriteLine(q);
+            Console.WriteLine("Hello");
         }
     }
 }

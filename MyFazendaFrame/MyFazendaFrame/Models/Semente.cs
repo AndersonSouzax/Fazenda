@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MyFazendaFrame.Models
 {
+    [Table("SEMENTE")]
     public class Semente
     {
+        [Key]
         public int FrutaId { get; set; }
         public double Largura { get; set; }
         public double Altura { get; set; }
