@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\data\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\data\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|c:\\users\\ander\\source\\repos\\fazenda\\myfazendaframe\\myfazendaframe\\data\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\data\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|c:\\users\\ander\\source\\repos\\fazenda\\myfazendaframe\\myfazendaframe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\models\\semente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\models\\semente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\data\\efcontext\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\data\\efcontext\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\data\\efcontext\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\data\\efcontext\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\data\\efcontext\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|solutionrelative:myfazendaframe\\data\\efcontext\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A42FC75-B8A8-40BB-B736-9FB4C3880002}|MyFazendaFrame\\MyFazendaFrame.csproj|C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\myfazendaframe\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,20 +96,20 @@
               "RelativeDocumentMoniker": "MyFazendaFrame\\Models\\Semente.cs",
               "ToolTip": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Models\\Semente.cs",
               "RelativeToolTip": "MyFazendaFrame\\Models\\Semente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAzwBsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T22:24:51.102Z",
+              "WhenOpened": "2024-08-14T19:29:30.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EntityFrameworkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Data\\EFContext\\EntityFrameworkRepository.cs",
               "RelativeDocumentMoniker": "MyFazendaFrame\\Data\\EFContext\\EntityFrameworkRepository.cs",
               "ToolTip": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Data\\EFContext\\EntityFrameworkRepository.cs",
               "RelativeToolTip": "MyFazendaFrame\\Data\\EFContext\\EntityFrameworkRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T17:36:13.009Z"
             },
@@ -139,33 +139,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DapperRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Data\\DapperRepository.cs",
               "RelativeDocumentMoniker": "MyFazendaFrame\\Data\\DapperRepository.cs",
               "ToolTip": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Data\\DapperRepository.cs",
               "RelativeToolTip": "MyFazendaFrame\\Data\\DapperRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAEwDYAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T21:09:15.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Program.cs",
               "RelativeDocumentMoniker": "MyFazendaFrame\\Program.cs",
               "ToolTip": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Program.cs",
               "RelativeToolTip": "MyFazendaFrame\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBMAAAA0AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T17:59:04.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainContext.cs",
               "DocumentMoniker": "C:\\Users\\Ander\\source\\repos\\Fazenda\\MyFazendaFrame\\MyFazendaFrame\\Data\\EFContext\\MainContext.cs",
               "RelativeDocumentMoniker": "MyFazendaFrame\\Data\\EFContext\\MainContext.cs",

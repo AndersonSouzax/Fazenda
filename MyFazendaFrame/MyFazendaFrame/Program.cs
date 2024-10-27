@@ -19,9 +19,16 @@ namespace MyFazendaFrame
 
             DapperRepository dapper_repo = new DapperRepository();
 
-            Semente semente1 = dapper_repo.GetSementeCompleteByFrutaId(1);
+            //Semente semente1 = dapper_repo.GetSementeCompleteByFrutaId(1);
 
-            Semente semente2 = dapper_repo.GetSementeByFrutaId(1);
+            //Semente semente2 = dapper_repo.GetSementeByFrutaId(1);
+
+            (double porOxi, double porInf, double porMic) = dapper_repo.GetPropriedadesSaudeByFrutaId(1);
+
+            if(porOxi > porInf && porOxi > porMic)
+            {
+                Console.WriteLine("Bem Antioxidante!");
+            }
 
             Console.WriteLine("Hello");
         }

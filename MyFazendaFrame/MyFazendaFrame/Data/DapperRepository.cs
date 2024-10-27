@@ -54,6 +54,76 @@ namespace MyFazendaFrame.Data
             return s;
         }
 
+        public (double, double, double) GetPropriedadesSaudeByFrutaId(int id)
+        {
+            _connection.Open();
+
+            string query = @"
+                 SELECT
+                     PorcentagemAcaoAntiOxidante,
+	                 PorcentagemAcaoAntiInflamatoria,
+	                 PorcentagemAcaoAntiMicrobiana
+                 FROM SEMENTE
+                 WHERE FrutaId = @id
+            ";
+
+            (double ox, double inf, double mic) = _connection.
+                QueryFirstOrDefault<(double, double, double)>(query, new { id });
+
+            _connection.Close();
+
+            return (ox, inf, mic);
+        }
+
+        public (decimal preco, int quantidade) GetSementeFrutaPrecoEmbalagemById(int frutaId)
+        {
+            _connection.Open();
+
+            try
+            {
+                string query = @"
+                SELECT 
+                    Preco, 
+                    QuantidadePorEmbalagem 
+                FROM SEMENTE WHERE FrutaId = @frutaId
+            ";
+
+                return _connection.QueryFirstOrDefault<(decimal preco, int quantidade)>(query, new { frutaId });
+            }
+            catch
+            {
+                return (0, 0);
+            }
+            finally
+            {
+                _connection.Close();
+            }
+        }
+
+        public int GetSementeEstoqueByFrutaId(int frutaId)
+        {
+            _connection.Open();
+
+            try
+            {
+                string query = @"
+                    SELECT 
+                         QuantidadeEstoque
+                    FROM SEMENTE WHERE FrutaId = @frutaId
+                ";
+
+                return _connection.QueryFirstOrDefault<int>(query, new { frutaId });
+            }
+            catch
+            {
+                return -1;
+            }
+            finally
+            {
+                _connection.Close();
+            }
+        }
+
         public Semente GetSementeById(int id)
         {
             _connection.Open();
@@ -88,31 +158,6 @@ namespace MyFazendaFrame.Data
             _connection.Close();
 
             return s;
-        }
-
-        public (decimal preco, int quantidade) GetSementeFrutaPrecoEmbalagemById(int frutaId)
-        {
-            _connection.Open();
-
-            try
-            {
-                string query = @"
-                SELECT 
-                    Preco, 
-                    QuantidadePorEmbalagem 
-                FROM SEMENTE WHERE FrutaId = @frutaId
-            ";
-
-                return _connection.QueryFirstOrDefault<(decimal preco, int quantidade)>(query, new { frutaId });
-            }
-            catch
-            {
-                return (0, 0);
-            }
-            finally
-            {
-                _connection.Close();
-            }
         }
     }
 }
